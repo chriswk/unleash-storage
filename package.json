@@ -2,7 +2,10 @@
   "name": "unleash-storage",
   "version": "1.0.0",
   "description": "Interfaces for providing storage for unleash-server",
-  "types": "./unleash-storage.d.ts",
+  "types": "./dist/unleash-storage.d.ts",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=14"
